@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.all-conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(54, 56, 77);
+    height: 100vh;
+}
+
+.conteiner {
+    display: flex;
+    background: white;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    width: 30vw;
+    padding: 20px 20px;
+}
+
+/* Elemenots del texto.... */
+
+.text h1 {
+    font-size: bold;
+    font-size: 4em;
+}
+
+.text h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+
+.img-conteiner #img {
+    border-radius: 15px;
+}
+
+/* formulario */
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 10px 0px;
+    padding: 15px 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+
+
+ul li::before {
+    content: url(/assets/images/icon-list.svg);
+    margin-right: 12px;
+}
+
+/* donde ira el resultado de la validación */
+
+.text-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+form #enviar {
+    background: rgb(54, 56, 77);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#resultado {
+    color: rgb(255, 95, 88);
+}
+
+
+
+
+/* Para la segunda pagina */
+
+.conteiner-2 {
+    display: none;
+}
+
+.text-2 {
+    background: white;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+
+.text-2 #img-flex {
+    width: 40px;
+}
+
+.text-2 h4 {
+    font-size: 2.5em;
+    padding-top: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text-2 #enviar-2 {
+    background: rgb(54, 56, 77);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+}
